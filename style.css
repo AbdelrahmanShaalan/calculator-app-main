@@ -178,13 +178,12 @@ main .calculator .buttons {
     flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(4 , minmax(50px , 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 @media (max-width: 320px) {
     main .calculator .buttons {
-        padding: 10px;
-        gap: 10px;
+        padding: 5px;
     }
 }
 

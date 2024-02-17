@@ -33,6 +33,7 @@ function equalCalc() {
     } catch(error) {
         if(error != undefined) {
             screenText.innerHTML = "ERROR"
+            calculations = []
         }
     }
 }
