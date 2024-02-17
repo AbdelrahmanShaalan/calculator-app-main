@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <script src="changeTheme.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body theme="one">
+  <main>
+    <header>
+      <span class="title">calc</span>
+      <div class="themeChangerBox">
+        THEME
+        <div class="themeChanger">
+          <ul class="listOfNumbers">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          <div class="buttonBox">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="calculator">
+      <div class="screen">
+        <h1></h1>
+      </div>
+      <div class="buttons">
+        <span onclick="addCalc(this)">7</span>
+        <span onclick="addCalc(this)">8</span>
+        <span onclick="addCalc(this)">9</span>
+        <span onclick="deleteCalc()" class="delete">DEL</span>
+        <span onclick="addCalc(this)">4</span>
+        <span onclick="addCalc(this)">5</span>
+        <span onclick="addCalc(this)">6</span>
+        <span onclick="addCalc(this)">+</span>
+        <span onclick="addCalc(this)">1</span>
+        <span onclick="addCalc(this)">2</span>
+        <span onclick="addCalc(this)">3</span>
+        <span onclick="addCalc(this)">-</span>
+        <span onclick="addCalc(this)">.</span>
+        <span onclick="addCalc(this)">0</span>
+        <span onclick="addCalc(this)">/</span>
+        <span onclick="addCalc(this)">x</span>
+        <span onclick="resetCalc()" class="reset">RESET</span>
+        <span onclick="equalCalc()" class="equal">=</span>
+      </div>
+    </div>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://www.frontendmentor.io/profile/AbdelrahmanShaalan">Abdelrahman Shaalan</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
